@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"window.zoomLevel": 0.5,
+		"workbench.colorTheme": "Dracula",
+		"workbench.iconTheme": "vscode-icons",
+		"liveServer.settings.multiRootWorkspaceName": "Tamplate"
+	}
+}

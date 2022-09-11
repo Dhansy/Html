@@ -1,0 +1,138 @@
+body{ 
+    background-image: url('../images/b.jpg');
+    background-repeat: no-repeat;
+    background-size:100VW;
+    margin:0;
+}
+*{
+    position:static;
+    font-family: sans-serif;
+}
+/* navbar */
+.navbar{
+    margin-top: 0;
+    width: 100%;
+    position: fixed;
+}
+nav .navbar{
+    border-bottom: 3px solid white;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+}
+nav h1{
+    margin-left:70px;
+    float: left;
+    padding:15px 0px;
+    color: #ffffff;
+}
+nav ul{ 
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    padding:20px 25px;
+    display: inline-block;
+}
+nav div ul li a:hover{
+    background-color: #6785ff;
+    color: white;
+}
+.active{
+    background-color: #6785ff;
+    color: white;
+}
+/* Home */
+.home{
+    padding-top:190px;
+    padding-left: 240px;
+    color: #ffffff;
+}
+button{
+    border:3px solid;
+    border-radius: 15%;
+    margin-left: 250px;
+    padding: 10px 90px;
+    background-color: transparent;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+button:hover{
+    background-color:#6785ff;
+    color: #ffffff;
+}
+/* about-content */
+img{
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 70px ;
+    width: 300px;
+    border: 3px solid white;
+}
+p{
+    color: #ffffff;
+    margin-right: 140px;
+    margin-top: 0px;
+    float: right;
+}
+/* school */
+.service {
+    background-color:transparent;
+    width: 100%;
+    padding: 75px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 50px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: "Montserrat","sans-serif";
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+.card{
+    height: 200px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color:white;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: white;
+}
+h5{
+    color:#6785ff;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: "Montserrat", "sans-serif";
+}
+.pra p{
+    color:#6785ff;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-family: "Poppins";
+}
+/* contact */
+h4{
+    color: #ffffff;
+    margin-left: 170px;
+}
